@@ -1,0 +1,84 @@
+body, html { 
+    margin: 0;
+    padding: 0;
+}
+
+.charImg{
+    width: 150px;   
+    margin-top: 245px;
+    margin-left: 30px;
+}
+.jsimg{
+    width: 400px;
+    margin-top: 150px;
+}
+.mainTxt{
+    font-family: 'NeoDunggeunmo';
+    font-size: 130px;
+    color: #be8c1e;
+    text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
+}
+.subTxt{
+    font-family: 'NeoDunggeunmo';
+    font-size: 25px;
+    color: #ffffff;
+}
+.startBtn{
+    width:150px;
+    height: 50px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 20px;
+    border-radius: 3px;
+}
+button{
+    cursor: pointer;
+}
+.startBtn:hover{
+    background-color:#dbcba6 ;
+    color: #805701;
+}
+
+/* 데스크탑 반응형 (1920*1080) 이상 */
+@media all and (min-width:1920px) {
+    body{
+        background-image: url('/img/backgroundimg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .charImg{
+        width: 200px;   
+        margin-top: 380px;
+        margin-left: 30px;
+    }
+    .jsimg{
+        width: 400px;
+        margin-top: 150px;
+    }
+    .mainTxt{
+        font-family: 'NeoDunggeunmo';
+        font-size: 180px;
+        color: #be8c1e;
+        text-shadow: -6px 0 white, 0 6px white, 6px 0 white, 0 -6px white;
+    }
+    .subTxt{
+        font-family: 'NeoDunggeunmo';
+        font-size: 35px;
+        color: #ffffff;
+    }
+    .startBtn{
+        width: 250px;
+        height: 80px;
+        font-family: 'NeoDunggeunmo';
+        font-size: 28px;
+        border-radius: 3px;
+    }
+    button{
+        cursor: pointer;
+    }
+    .startBtn:hover{
+        background-color:#dbcba6 ;
+        color: #805701;
+    }
+}
